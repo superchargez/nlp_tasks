@@ -11,8 +11,6 @@ original_https_proxy = os.environ.get('https_proxy')
 os.environ['http_proxy'] = ''
 os.environ['https_proxy'] = ''
 
-# Your code here
-# ...
 
 # Reset the proxies to original values after your code
 if original_http_proxy is not None:
